@@ -1,5 +1,14 @@
 Finally, version control for Windows!
-======================================
+=====================================
+
+
+Why are you here?
+=================
+
+Tired of limitations of Windows GUI? Want to work more efficiently? After years of saying 'I'm not a developer,' within this documentation are guides on how to get started with PowerShell and Git.
+
+Getting started with Git for Windows
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. toctree::
    :maxdepth: 2
