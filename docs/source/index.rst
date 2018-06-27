@@ -15,8 +15,6 @@ Getting started with Git for Windows
 
 .. toctree::
    :maxdepth: 2
-   :caption: Contents:
-
+   
    start
    run
-   
