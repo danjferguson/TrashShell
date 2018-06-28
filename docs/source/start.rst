@@ -12,17 +12,17 @@ Windows Dev Environment
 Software Requirements
 ---------------------
 
-Windows 10 (Pro or Enterprise)
-VS Code
-PowerShell 5.1+
+- Windows 10 (Pro or Enterprise)
+- VS Code
+- PowerShell 5.1+
 
 Optional Software
 -----------------
-Git for Windows
-Ubuntu for Windows
-Chocolatey
-Python
-PowerCLI
+- Git for Windows
+- Ubuntu for Windows
+- Chocolatey
+- Python
+- PowerCLI
 
 MacOS Dev Environment
 #####################
@@ -30,12 +30,12 @@ MacOS Dev Environment
 Software Requirements
 ---------------------
 
-MacOS High Sierra+
-VS Code
-PowerShell 5.1+
+- MacOS High Sierra+
+- VS Code
+- PowerShell 5.1+
 
 Optional Software
 -----------------
-Python
-Homebrew
-PowerCLI
+- Python
+- Homebrew
+- PowerCLI
