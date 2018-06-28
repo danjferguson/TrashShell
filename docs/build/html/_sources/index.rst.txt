@@ -9,9 +9,8 @@ Tired of limitations of Windows GUI? Want to work more efficiently? After years 
 
 .. toctree::
    :maxdepth: 2
-   
-   devops/git
-   devops/run
-   devpos/start
+   :caption: Getting Started
 
-   
+   git.rst
+   run.rst
+   start.rst

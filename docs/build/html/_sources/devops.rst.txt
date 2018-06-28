@@ -1,0 +1,3 @@
+.. include:: ../git.rst
+.. include:: ../run.rst
+.. include:: ../start.rst
