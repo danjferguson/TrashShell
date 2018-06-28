@@ -11,5 +11,6 @@ Tired of limitations of Windows GUI? Want to work more efficiently? After years 
    :caption: Windows DevOps for Sys Admins
 
    git.rst
-   run.rst
    start.rst
+   run.rst
+   
