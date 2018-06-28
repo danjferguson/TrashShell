@@ -1,6 +1,6 @@
-##################
-Puppet for Windows
-##################
+######
+Puppet
+######
 
 Sorry, you need Linux
 ---------------------

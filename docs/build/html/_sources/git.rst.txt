@@ -1,5 +1,5 @@
 ###############
-Git for Windows
+Git
 ###############
 
 Version control for Windows
@@ -7,6 +7,8 @@ Version control for Windows
 
 VS Code integrated Git
 ----------------------
+
+Limitations
 
 Git for Windows
 ---------------
