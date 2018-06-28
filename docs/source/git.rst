@@ -10,3 +10,6 @@ VS Code integrated Git
 
 Git for Windows
 ---------------
+
+Git Cheat Sheet
+===============

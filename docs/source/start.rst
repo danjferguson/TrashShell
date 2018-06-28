@@ -6,6 +6,9 @@ The correct tools is critical if you are just getting started. Back when writing
 
 The tool Microsoft is using to make all this happen: VS Code. It can be deployed manually or through Chocolatey quickly on Windows, but can still be used on MacOS or Linux if you have a need to use other platforms. VS Code has built in Git integration, provides multiple shell access methods, while still giving you some user friendly options as you find yourself moving deeper into the DevOps waters.
 
+Windows Dev Environment
+#######################
+
 Software Requirements
 ---------------------
 
@@ -19,4 +22,20 @@ Git for Windows
 Ubuntu for Windows
 Chocolatey
 Python
+PowerCLI
+
+MacOS Dev Environment
+#####################
+
+Software Requirements
+---------------------
+
+MacOS High Sierra+
+VS Code
+PowerShell 5.1+
+
+Optional Software
+-----------------
+Python
+Homebrew
 PowerCLI
