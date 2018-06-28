@@ -7,21 +7,11 @@ Why are you here?
 
 Tired of limitations of Windows GUI? Want to work more efficiently? After years of saying 'I'm not a developer,' within this documentation are guides on how to get started with PowerShell and Git.
 
-Getting started with Git for Windows
-------------------------------------
-
-Contents:
-=========
-
 .. toctree::
    :maxdepth: 2
    
-   start
-   run
+   devops/git
+   devops/run
+   devpos/start
 
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   
