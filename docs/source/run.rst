@@ -1,5 +1,5 @@
 ###
-Set
+Run
 ###
 
 After you you have installed all the required software, there are some configuration changes to do if you want to save yourself some steps later. VS Code extensions can be a little difficult to understand if you are new to this documentation and process. 
