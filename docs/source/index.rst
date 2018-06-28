@@ -14,4 +14,5 @@ Tired of limitations of the Windows GUI? Want to work more efficiently? After ye
    choco.rst
    puppet.rst
    start.rst
-   run.rst      
+   run.rst
+   about.rst
