@@ -16,3 +16,4 @@ Tired of limitations of the Windows GUI? Want to work more efficiently? After ye
    start.rst
    run.rst
    about.rst
+   over.rst

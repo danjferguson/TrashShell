@@ -88,17 +88,20 @@
 <li class="toctree-l2"><a class="reference internal" href="#windows-dev-environment">Windows Dev Environment</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#software-requirements">Software Requirements</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#optional-software">Optional Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comments">Comments</a></li>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#macos-dev-environment">MacOS Dev Environment</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#id1">Software Requirements</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#id2">Optional Software</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id3">Comments</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="run.html">Run</a></li>
 <li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="over.html">Overwhelmed?</a></li>
 </ul>
 
             
@@ -165,7 +168,7 @@
             
   <div class="section" id="start">
 <h1>Start<a class="headerlink" href="#start" title="Permalink to this headline">¶</a></h1>
-<p>The correct tools are critical if you are just getting started. Back when writing batch startup scripts was the most complicated thing I did, notepad.exe was sufficient. As scripts and datasets became more complicated, Notepad++ was a solution that I relied on for years. Then, I stumbled upon Sublime, which was a big improvement overall and began my journey into a DevOps world. In 2018, with all the file types that need to be used, and on a variety of platforms, you need good software to run your scripts. Many people continue to use PowerShell ISE or other third-party options.</p>
+<p>The correct tools  critical if you are just getting started. Back when writing batch startup scripts was the most complicated thing I did, notepad.exe was sufficient. As scripts and datasets became more complicated, Notepad++ was a solution that I relied on for years. Then, I stumbled upon Sublime, which was a big improvement overall and began my journey into a DevOps world. In 2018, with all the file types that need to be used, and on a variety of platforms, you need good software to run your scripts. Many people continue to use PowerShell ISE or other third-party options.</p>
 <p>The tool Microsoft is using to make all this happen: VS Code. It can be deployed manually or through Chocolatey quickly on Windows, but can still be used on MacOS or Linux if you have a need to use other platforms. VS Code has built in Git integration, provides multiple shell access methods, while still giving you some user friendly options as you find yourself moving deeper into the DevOps waters.</p>
 <div class="section" id="windows-dev-environment">
 <h2>Windows Dev Environment<a class="headerlink" href="#windows-dev-environment" title="Permalink to this headline">¶</a></h2>
@@ -187,6 +190,11 @@
 <li>PowerCLI</li>
 </ul>
 </div>
+<div class="section" id="comments">
+<h3>Comments<a class="headerlink" href="#comments" title="Permalink to this headline">¶</a></h3>
+<p>You’re probably on a Windows 10 machine reading this, or you should be soon. Please have an understanding of how to operate administrative functions within Windows and accessing system files, adjusting security settings, and having patience with some of the quirks of merging Unix based and Windows systems together. Ideally, you are creating this environment in a VM so that you can test everything before you modify your own machine. During the process of moving from a GUI heavy work flow to learning infrastructure as code, I kept my GUI friendly environment intact as my security blanket when I wasn’t quite sure what I was doing. It is advisable to keep your own admin tools intact, but working in parallel as you make your transition to more powerful tools. The best part about throwing out the GUI, is you can generate your administrative systems with code with minimal resources, giving you a reliable environment to work from so you can focus on solving problems rather than fixing your own gear.</p>
+<p>Unix based systems can utilize tmux to achieve the environment and workflow described in this documentation. Windows doesn’t yet have that completely ported over yet (tmux is availble in Azure however), so VS Code has become the IDE and terminal interface of choice in this workflow. PowerShell ISE lacks the additional code fucntionality you will need to help transition away from GUI tools.</p>
+</div>
 </div>
 <div class="section" id="macos-dev-environment">
 <h2>MacOS Dev Environment<a class="headerlink" href="#macos-dev-environment" title="Permalink to this headline">¶</a></h2>
@@ -205,6 +213,10 @@
 <li>Homebrew</li>
 <li>PowerCLI</li>
 </ul>
+</div>
+<div class="section" id="id3">
+<h3>Comments<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>This is my preferred development platform. It is capable of delivering every possible platform you will ever run accross, and the higher end MacBook pro is capable of running a variety of virtual environments with USB-C SSDs and plenty of processor and RAM to run containers and full VMs with ease. Some of the configurations require special settings in order to operate correctly to administer Windows systems. Because of the additional complexity, it is recommended to focus on the Windows platform unless you are very familiar with MacOS and using PowerShell, Homebrew. Having some understanding and knowledge of Python, Lua, and Lmod is also great too. This documentation was created using all of these tools going between a MacBook Pro and an iMac with mixed results depending on how much I managed to screw up my environment.</p>
 </div>
 </div>
 </div>

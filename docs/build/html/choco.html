@@ -83,15 +83,24 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="git.html">Git</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Chocolatey</a><ul>
-<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#installation">Installation</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#package-deployment">Package Deployment</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#first-time-using-chocolatey">First Time Using Chocolatey</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#installation">Installation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#package-deployment">Package Deployment</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#tl-dr">TL:DR</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#choco-config">Choco Config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#choco-install">Choco Install</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="puppet.html">Puppet</a></li>
 <li class="toctree-l1"><a class="reference internal" href="start.html">Start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="run.html">Run</a></li>
 <li class="toctree-l1"><a class="reference internal" href="about.html">About</a></li>
+<li class="toctree-l1"><a class="reference internal" href="over.html">Overwhelmed?</a></li>
 </ul>
 
             
@@ -158,18 +167,34 @@
             
   <div class="section" id="chocolatey">
 <h1>Chocolatey<a class="headerlink" href="#chocolatey" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="first-time-using-chocolatey">
+<h2>First Time Using Chocolatey<a class="headerlink" href="#first-time-using-chocolatey" title="Permalink to this headline">¶</a></h2>
+<p>Have you been using non-command line based tools to deploy software? Stop doing that.</p>
 <div class="section" id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<h3>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h3>
 <p>SCCM was never the solution people wanted it to be many times because of the complexity and costs, especially in smaller environments. Other third party tools have various learning curves or costs depending on how quickly it allows IT professionals to get started deploying packages. Chocolatey by itself is an excellent command line tool for deploying software, even for home users and especially for those helping less experienced users install software. The last thing you want to do when you’re visiting family over the holidays is to spend it updating their software they haven’t updated since the last time you touched their computer. Now, with a few short scripts you can not only get a computer setup quickly, but you can provide reliable updates on systems remotely.</p>
 </div>
 <div class="section" id="installation">
-<h2>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h2>
+<h3>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h3>
 <p>Chocolatey’s documentation is some of the best I’ve run through. As I find notes about deploying Chocolatey in a new environment for the first time, there will be additional examples here to help you tailor it to your needs.</p>
 <p><a class="reference external" href="https://chocolatey.org">https://chocolatey.org</a></p>
 </div>
 <div class="section" id="package-deployment">
-<h2>Package Deployment<a class="headerlink" href="#package-deployment" title="Permalink to this headline">¶</a></h2>
+<h3>Package Deployment<a class="headerlink" href="#package-deployment" title="Permalink to this headline">¶</a></h3>
 <p>Once the install has been completed, it is a matter of running the new PowerShell command.</p>
+</div>
+</div>
+<div class="section" id="tl-dr">
+<h2>TL:DR<a class="headerlink" href="#tl-dr" title="Permalink to this headline">¶</a></h2>
+<p>Know what you’re doing with Chocolatey and want to setup your environment like a pro?</p>
+<div class="section" id="choco-config">
+<h3>Choco Config<a class="headerlink" href="#choco-config" title="Permalink to this headline">¶</a></h3>
+<p>Including a copy of my choco config as a baseline.</p>
+</div>
+<div class="section" id="choco-install">
+<h3>Choco Install<a class="headerlink" href="#choco-install" title="Permalink to this headline">¶</a></h3>
+<p>List of my software with notes; once I’ve mastered a Puppet deploymnt, I will include Puppet instructions for installing software with chocolatey.</p>
+</div>
 </div>
 </div>
 

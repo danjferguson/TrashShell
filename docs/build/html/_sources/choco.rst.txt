@@ -2,6 +2,11 @@
 Chocolatey
 ##########
 
+First Time Using Chocolatey
+###########################
+
+Have you been using non-command line based tools to deploy software? Stop doing that.
+
 Overview
 --------
 
@@ -18,3 +23,18 @@ Package Deployment
 ------------------
 
 Once the install has been completed, it is a matter of running the new PowerShell command.
+
+TL:DR
+#####
+
+Know what you're doing with Chocolatey and want to setup your environment like a pro?
+
+Choco Config
+------------
+
+Including a copy of my choco config as a baseline.
+
+Choco Install
+-------------
+
+List of my software with notes; once I've mastered a Puppet deploymnt, I will include Puppet instructions for installing software with chocolatey.
