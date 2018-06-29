@@ -8,7 +8,7 @@ GUI vs CLI
 Graphical User Interface
 ------------------------
 
-Most Windows administrators have lived in a GUI interface most of their careers. Microsoft has made considerable improvments in providing a streamlined GUI interface to manage multiple servers. The Server Management tools refined in Server 2012r2 really help to begin to bridge the gap between RDPing into every server and using remote management tools. Unfortunately, without version control and change management, it lacks the precision that Linux system administrators have enjoyed using Puppet. 
+Most Windows administrators have lived in a GUI interface most of their careers. Microsoft has made considerable improvments in providing a streamlined GUI interface to manage multiple servers. The Server Management tools refined in Server 2012r2 really help to begin to bridge the gap between RDPing into every server and using remote management tools. Unfortunately, without version control and change management, it lacks the precision that Linux system administrators have enjoyed using Puppet.
 
 Command Line Interface
 ----------------------

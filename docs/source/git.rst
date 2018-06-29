@@ -50,7 +50,7 @@ git status
 Git Next Level
 ==============
 
-These commands are when you're ready to start using Puppet and really getting to manage your infrastructure with code. 
+These commands are when you're ready to start using Puppet and really getting to manage your infrastructure with code.
 
 Branches
 --------
