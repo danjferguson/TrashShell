@@ -87,7 +87,16 @@
 <li class="toctree-l3"><a class="reference internal" href="#git-for-windows">Git for Windows</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="#git-cheat-sheet">Git Cheat Sheet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#git-cheat-sheet">Git Cheat Sheet</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#git-config">Git config</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#common-commands">Common commands</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#troubleshooting">Troubleshooting</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#git-next-level">Git Next Level</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#branches">Branches</a></li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="choco.html">Chocolatey</a></li>
@@ -173,6 +182,37 @@
 </div>
 <div class="section" id="git-cheat-sheet">
 <h2>Git Cheat Sheet<a class="headerlink" href="#git-cheat-sheet" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="git-config">
+<h3>Git config<a class="headerlink" href="#git-config" title="Permalink to this headline">¶</a></h3>
+<p>git config –gloabal user.name “User Name”</p>
+<p>git config –global user.email “<a class="reference external" href="mailto:user&#46;email&#37;&#52;&#48;domain&#46;com">user<span>&#46;</span>email<span>&#64;</span>domain<span>&#46;</span>com</a>”</p>
+</div>
+<div class="section" id="common-commands">
+<h3>Common commands<a class="headerlink" href="#common-commands" title="Permalink to this headline">¶</a></h3>
+<p>git clone &lt;address of repo&gt;</p>
+<p>git add -f &lt;path of file&gt;</p>
+<p>git add -A</p>
+<p>git commit -F &lt;path of file&gt; -m “commit message text”</p>
+<p>git commit -a -m “commit message text”</p>
+<p>git push</p>
+<p>git pull</p>
+</div>
+<div class="section" id="troubleshooting">
+<h3>Troubleshooting<a class="headerlink" href="#troubleshooting" title="Permalink to this headline">¶</a></h3>
+<p>git log</p>
+<p>git status</p>
+</div>
+</div>
+<div class="section" id="git-next-level">
+<h2>Git Next Level<a class="headerlink" href="#git-next-level" title="Permalink to this headline">¶</a></h2>
+<p>These commands are when you’re ready to start using Puppet and really getting to manage your infrastructure with code.</p>
+<div class="section" id="branches">
+<h3>Branches<a class="headerlink" href="#branches" title="Permalink to this headline">¶</a></h3>
+<p>git branch</p>
+<p>git checkout -b &lt;branch name&gt;</p>
+<p>git push –set-upstream origin &lt;branch name&gt;</p>
+<p>git branch -d &lt;branch name&gt;</p>
+</div>
 </div>
 </div>
 
