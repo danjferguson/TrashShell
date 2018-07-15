@@ -27,7 +27,7 @@ Import-PSSession $Session
 # PublishingEditor — read, create, modify and delete items/subfolders;
 # Editor — read, create, modify and delete items;
 # PublishingAuthor — read, create all items/subfolders. You can modify and delete only items you create;
-# Author — create and read items; edit and delete own items 
+# Author — create and read items; edit and delete own items
 # NonEditingAuthor – full read access and create items. You can delete only your own items;
 # Reviewer — read only;
 # Contributor — create items and folders;
