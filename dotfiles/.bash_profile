@@ -15,5 +15,5 @@ source $GIT_BASH_DIR/git-prompt.sh
 alias ic='cd ~/Library/Mobile\ Documents/com~apple~CloudDocs'
 alias od='cd ~/OneDrive\ -\ CIDR/' 
 GIT_PS1_SHOWDIRTYSTATE=true
-PS1_NAME=mbp
+PS1_NAME=mac
 export PS1='$PS1_NAME [\W]$(__git_ps1)\$ '
