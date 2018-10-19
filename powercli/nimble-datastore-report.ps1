@@ -1,0 +1,1 @@
+Get-Datastore -Location *nimble* | Sort-Object -Property "Name" -Descending
